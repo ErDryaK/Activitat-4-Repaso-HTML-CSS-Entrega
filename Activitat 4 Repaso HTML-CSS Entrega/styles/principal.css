@@ -1,0 +1,149 @@
+body {
+    background-color: #ffffff;
+    background-size: cover;
+    font-family: 'Trebuchet MS';
+  
+  }
+  
+  .linea-titulo {
+    background:  rgb(32, 196, 202);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  
+  .titulo {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 27px;
+    left: 145px;
+    top: 25%;
+  
+  }
+  
+  .contenido {
+    display: flex;
+    justify-content: center;
+    margin: 26px;
+    margin-left: 35%;
+  }
+  
+  .logo-banner {
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    left: 35px;
+    top: 0%;
+  }
+  
+  .boton-banner {
+    display: flex;
+
+  }
+
+
+  .barra-busqueda {
+    display: flex;
+    justify-content: right;
+    margin-right: 10%;
+    margin-left: 5%;
+    align-items: center;
+    outline: none;
+  }
+
+  .login {
+    display: flex;
+   justify-content: right;
+   
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  button {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0s;
+    text-decoration: none;
+  
+  }
+  
+  button:hover {
+    color: rgb(250, 250, 250);
+  }
+  
+
+
+  .peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; 
+}
+
+.pelicula {
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.pelicula img {
+  
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pelicula p {
+    margin-top: 5px;
+}
+
+.sobreponer{
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sobreponer:hover .sobreponer-info{
+  display: block;
+}
+
+.sobreponer-info{
+ display: none;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-color: rgba(0, 0, 0, 0.9); 
+ color: rgb(0, 255, 234);
+ padding: 10px;
+ transition: display 0.3s;
+}
+
+.sobreponer-info h2{
+  font-size: 1,5px;
+}
+
+
+  footer {
+    margin-top: 5%;
+    background-color: rgb(32, 196, 202);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+    
+    
+  }
